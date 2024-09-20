@@ -1,0 +1,634 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+.login{
+    height: 40px;
+    width: 100%;
+    background-color: rgb(209, 209, 209);
+}
+.login div{
+    padding: 10px;
+    padding-right: 70px;
+    text-align: end;
+    font-size: 13px;
+}
+
+.login a{
+    display: inline;
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+}
+.menu{
+    display: flex;
+    width: 98%;
+    height: 70px;
+    padding: 10px;
+
+}
+.menu img{
+    margin-left: 70px;
+}
+.nav-left a{
+    padding: 10px;
+    color: black;
+}
+.nav-left{
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.nav-right{
+    margin-top: 30px;
+    margin-left: 600px;
+}
+.nav-right a{
+    padding: 20px;
+    color: black;
+}
+.con1-main{
+    height: 225px;
+    width: 625px;
+    position: absolute;
+    top: 230px;
+    left:110px;
+    color: rgb(255, 255, 255);
+}
+.con1-main h1{
+    font-size: 63px;
+    font-weight: 200;
+}
+
+.con1-para{
+    position: absolute;
+    color: white;
+    width: 650px;
+    height: 28px;
+    top: 480px;
+    left: 109px;
+    font-size: 18px;
+}
+
+.con1-anch{
+    position: absolute;
+    border: 1px solid black;
+    width: 150px;
+    height: 45px;
+    top: 525px;
+    left: 100px;
+    background-color: white;
+    border-radius: 30px;
+    margin: 10px;
+    align-content: center;
+}
+
+.con1-anch:hover{
+    background-color: rgb(232, 232, 232);
+}
+
+.con1-anch a{
+    color: rgb(6, 6, 40);
+    font-size: 18px;
+    padding-left: 16px;
+    font-weight: bold;
+}
+
+.multi-option{
+    width: 56%;
+    height: 108px;
+    align-content: center;
+    margin-top: 20px;
+    margin-left: 400px;
+    margin-bottom: 30px;
+}
+
+.mo-icon a{
+    padding: 45px;
+    font-size: 33px;
+    color: rgb(89, 89, 89);
+}
+
+.mo-icon a:hover{
+    color: blue;
+}
+
+.mo-name a{
+    padding: 20px;
+    color: black;
+    
+}
+
+.content2{
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    margin-top: 40px;
+}
+
+.content2 h1{
+    font-weight: lighter;
+}
+
+.content3{
+    display: flex;
+    height: 550px;
+    width: 100%;
+}
+
+.arrow{
+    font-size: 14px;
+    margin-left: 6px;
+ }
+
+.con3-1{
+    position: relative;
+    top: 50px;
+    left: 120px;
+    width: 27%;
+    height: 450px;
+    border-radius: 6px;
+    box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.2);
+}
+
+.con3-2{
+    position: relative;
+    top: 50px;
+    left: 150px;
+    width: 27%;
+    height: 450px;
+    border-radius: 6px;
+    box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.2);
+}
+
+.con3-3{
+    position: relative;
+    top: 50px;
+    left: 180px;
+    width: 27%;
+    height: 450px;
+    border-radius: 6px;
+    box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.2);
+}
+
+.con3-1 img{
+    margin: 0%;
+    width: 410px;
+    height: 230px;
+}
+
+.con3-2 img{
+    width: 410px;
+    height: 230px;
+}
+
+.con3-3 img{
+    width: 410px;
+    height: 230px;
+    border-radius: 6px;
+}
+
+
+.con3-1 h2{
+    position: relative;
+    left: 30px;
+    top: 30px;
+    font-weight: lighter;
+    color: rgba(0, 0, 0, 0.752);
+}
+
+.con3-1 pre{
+    position: relative;
+    left: 30px;
+    top: 50px;
+    font-size: 17px;
+    line-height: 1.5;
+    color: rgba(0, 0, 0, 0.752);
+}
+
+.con3-1 a{
+    position: relative;
+    left: 30px;
+    top: 70px;
+    font-size:15px;
+    color: rgb(30, 83, 255);
+}
+
+.con3-1 a:hover{
+    text-decoration: underline;
+}
+
+.con3-2 h2{
+    position: relative;
+    left: 30px;
+    top: 30px;
+    font-weight: lighter;
+    color: rgba(0, 0, 0, 0.752);
+}
+
+.con3-2 pre{
+    position: relative;
+    left: 30px;
+    top: 50px;
+    font-size: 17px;
+    line-height: 1.5;
+    color: rgba(0, 0, 0, 0.752);
+}
+
+.con3-2 a{
+    position: relative;
+    left: 30px;
+    top: 70px;
+    font-size:15px;
+    color: rgb(30, 83, 255);
+}
+
+.con3-2 a:hover{
+    text-decoration: underline;
+}
+
+.con3-3 h2{
+    position: relative;
+    left: 30px;
+    top: 30px;
+    color: rgba(0, 0, 0, 0.752);
+    font-weight: lighter;
+}
+
+.con3-3 pre{
+    position: relative;
+    left: 30px;
+    top: 50px;
+    font-size: 17px;
+    font-weight: lighter;
+    line-height: 1.5;
+    color: rgba(0, 0, 0, 0.752);
+}
+
+.con3-3 a{
+    position: relative;
+    left: 30px;
+    top: 60px;
+    font-size:15px;
+    color: rgb(30, 83, 255);
+}
+
+.con3-3 a:hover{
+    text-decoration: underline;
+}
+
+.con4-1{
+    display: flex;
+    height: 400px;
+    width: 100%;
+    margin-top: 60px;
+}
+
+.con4-1 img{
+    width: 550;
+    height: 352px;
+    padding-left: 120px;
+}
+
+.con4-1 pre{
+    padding-left: 200px;
+    padding-top: 45px;
+}
+
+.con4-1 h1{
+    font-weight: lighter;
+    font-size: 35px;
+    line-height: 1.2;
+}
+
+.con4-1 p{
+    line-height: 1.5;
+    color: rgba(0, 0, 0, 0.752);
+}
+
+.con4-1 a{
+    font-size: 17px;
+    border: 1px solid rgb(30, 83, 255);
+    color: rgb(30, 83, 255);
+    border-radius: 25px;
+    padding: 15px;
+}
+
+.con4-1 a:hover{
+    color: white;
+    background-color: rgb(30, 83, 255);;
+}
+
+.con4-2{
+    display: flex;
+    height: 400px;
+    width: 100%;
+    margin-top: 60px;
+}
+
+.con4-2 img{
+    width: 550;
+    height: 352px;
+    padding-left: 150px;
+}
+
+.con4-2 pre{
+    padding-left: 120px;
+    padding-top: 45px;
+}
+
+.con4-2 h1{
+    font-weight: lighter;
+    font-size: 35px;
+}
+
+.con4-2 p{
+    line-height: 1.5;
+    color: rgba(0, 0, 0, 0.752);
+}
+
+.con4-2 h2{
+    display: flex;
+}
+
+.con4-2 .btn1{
+    font-size: 17px;
+    border: 1px solid rgb(30, 83, 255);
+    color: rgb(30, 83, 255);
+    border-radius: 25px;
+    padding: 15px;
+}
+
+.con4-2 .btn1:hover{
+    color: white;
+    background-color: rgb(30, 83, 255);;
+}
+
+.con4-2 .btn2{
+    font-size: 17px;
+    color: rgb(30, 83, 255);
+    padding: 15px;
+    margin-left: 20px;
+}
+.con4-2 .btn2:hover{
+    text-decoration: underline;
+}
+
+.con4-3{
+    display: flex;
+    height: 400px;
+    width: 100%;
+    margin-top: 60px;
+}
+
+.con4-3 img{
+    width: 550;
+    height: 352px;
+    padding-left: 120px;
+}
+
+.con4-3 pre{
+    padding-left: 180px;
+    padding-top: 45px;
+}
+
+.con4-3 h1{
+    font-weight: lighter;
+    font-size: 35px;
+}
+
+.con4-3 p{
+    line-height: 1.5;
+    color: rgba(0, 0, 0, 0.752);
+}
+
+.con4-3 h2{
+    display: flex;
+}
+
+.con4-3 .btn1{
+    font-size: 17px;
+    border: 1px solid rgb(30, 83, 255);
+    color: rgb(30, 83, 255);
+    border-radius: 25px;
+    padding: 15px;
+}
+
+.con4-3 .btn1:hover{
+    color: white;
+    background-color: rgb(30, 83, 255);;
+}
+
+.con4-3 .btn2{
+    font-size: 17px;
+    color: rgb(30, 83, 255);
+    padding: 15px;
+    margin-left: 20px;
+}
+
+.con4-3 .btn2:hover{
+    text-decoration: underline;
+}
+
+.content5{
+    width: 100%;
+    height: 680px;
+    margin: 60px 60px 0px 0px;
+    text-align: center;
+}
+
+.con5-1 h1{
+    font-size: 35px;
+    font-weight: lighter;
+}
+
+.con5-1 pre{
+    line-height: 1.8;
+    color: rgba(0, 0, 0, 0.752);
+}
+
+.con5-2{
+    margin-top: 40px;
+}
+
+.content6{
+    width: 100%;
+    height: 400px;
+}
+
+.head{
+    display: flex;
+    position: relative;
+    padding-top: 60px;
+}
+
+.head1 h1{
+    font-size: 35px;
+    font-weight: lighter;
+    padding-left: 90px;
+}
+
+.head2{
+    margin-left: 910px;
+    margin-top: 15px;
+}
+
+.head2 a{
+    padding: 10px;
+    color: rgb(30, 83, 255);
+    font-weight: bold;
+}
+
+.head2 a:hover{
+    text-decoration: underline;
+}
+
+.option{
+    display: flex;
+    margin-top: 60px;
+    justify-content: space-around;
+}
+
+.option1{
+    margin-left: 25px;
+}
+
+.option1 h2{
+    font-weight: 500px;
+    font-size: 17px;
+}
+
+.option1 h1{
+    font-size: 20px;
+    font-weight: lighter;
+    color: rgba(0, 0, 0, 0.752);
+}
+
+.option1 p{
+    line-height: 1.5;
+    color: rgba(0, 0, 0, 0.752);
+}
+
+.option1 a{
+    color: rgb(30, 83, 255);
+}
+
+.option1 a:hover{
+    text-decoration: underline;
+}
+
+.option2 h2{
+    font-weight: 500px;
+    font-size: 17px;
+}
+
+.option2 h1{
+    font-size: 20px;
+    font-weight: lighter;
+    color: rgba(0, 0, 0, 0.752);
+}
+
+.option2 p{
+    line-height: 1.5;
+    color: rgba(0, 0, 0, 0.752);
+}
+
+.option2 a{
+    color: rgb(30, 83, 255);
+}
+
+.option2 a:hover{
+    text-decoration: underline;
+}
+
+.option3 h2{
+    font-weight: 500px;
+    font-size: 17px;
+}
+
+.option3 h1{
+    font-size: 20px;
+    font-weight: lighter;
+    color: rgba(0, 0, 0, 0.752);
+}
+
+.option3 p{
+    line-height: 1.5;
+    color: rgba(0, 0, 0, 0.752);
+}
+
+.option3 a{
+    color: rgb(30, 83, 255);
+}
+
+.option3 a:hover{
+    text-decoration: underline;
+}
+
+footer{
+    background-color: rgb(234, 234, 234);
+    width: 100%;
+    height: 240px;
+    margin-top: 70px;
+}
+
+.contact{
+    display: flex;
+    padding-top: 50px;
+    padding-left: 60px;
+}
+
+.cont-text a{
+    padding-left: 30px;
+    color: rgb(86, 86, 86);
+    font-size: 15px;
+}
+
+.cont-text a:hover{
+    text-decoration: underline;
+}
+
+.cont-icon{
+    margin-left: 700px;
+}
+
+.cont-icon a{
+    padding-left: 20px;
+    font-size: 20px;
+    color: rgb(86, 86, 86);
+}
+
+.cont-icon a:hover{
+    color: rgb(30, 83, 255);
+}
+
+hr{
+    margin-top: 35px;
+    margin-left: 90px;
+    width: 88.8%;
+}
+
+.about{
+    margin-top: 30px;
+    padding-left: 60px;
+    font-size: 13px;
+}
+
+.about a{
+    padding-left: 30px;
+    color: rgb(86, 86, 86);;
+}
+
+.about a:hover{
+    text-decoration: underline;
+}
+
+footer p{
+    margin-top: 40px;
+    margin-left: 90px;
+    font-size: 13px;
+    color: rgb(86, 86, 86);;
+}
